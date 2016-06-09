@@ -44,3 +44,25 @@ var president40 = {
 var presidents = [president44, president43, president42, president41, president40];
 
 console.log(presidents[2].firstName, presidents[2].lastName);
+
+function howdy() {
+    return 'Christina Hendricks says hello!';
+}
+
+console.log(howdy());
+
+var numba = function (string) {
+    if (string.length < 7) {
+        console.log('What a short little word!');
+    } else if (string.length > 7) {
+        console.log('I’m sorry, but that’s too many to count.');
+    } else {
+        console.log('What a perfect choice!');
+    }
+};
+
+console.log(numba('7'));
+
+console.log(numba('seventy'));
+
+console.log(numba('university'));

@@ -66,3 +66,13 @@ console.log(numba('7'));
 console.log(numba('seventy'));
 
 console.log(numba('university'));
+
+function partOne(favMovie) {
+    console.log(favMovie + ' is a fantastic movie');
+}
+
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+console.log(inception(partOne, 'The Godfather'));
